@@ -1,0 +1,252 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f4b400; /* Yellow color */
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ff6600; /* Orange color on hover */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ff6600; /* Orange color */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #f4b400;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #ff6600;
+    color: white;
+}
+
+/* Recipe List Section */
+.recipes {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.recipes h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f4b400; /* Yellow color */
+}
+
+.recipe-card {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.recipe-card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #f4b400; /* Yellow color */
+}
+
+.recipe-card p {
+    margin: 10px 0;
+    color: #f4f4f4;
+}
+
+/* Recipe Details Section */
+.recipe-details {
+    padding: 40px 20px;
+    background-color: #1a1a1a;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.recipe-details h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f4b400; /* Yellow color */
+}
+
+.recipe-details ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.recipe-details ul li {
+    margin: 5px 0;
+    color: #f4f4f4;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #333;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: #f4b400;
+}
+
+.about p {
+    color: #f4f4f4;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.about-img {
+    width: 50%;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h3 {
+    font-size: 2rem;
+    color: #f4b400;
+}
+
+.about-text p {
+    color: #f4f4f4;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #333;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    color: #f4b400;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.contact form label {
+    display: block;
+    font-size: 1.1rem;
+    margin: 10px 0 5px;
+    color: #f4f4f4;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.contact form textarea {
+    height: 150px;
+}
+
+.contact form button {
+    background-color: #f4b400;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #ff6600;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Recipe Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#recipes">Recipes</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to the Online Recipe Book!</h1>
+        <p>Browse and discover your next favorite recipe</p>
+        <a href="#recipes" class="btn">Explore Recipes</a>
+    </section>
+
+    <!-- Recipe List Section -->
+    <section id="recipes" class="recipes">
+        <h2>Our Recipes</h2>
+
+        <div class="recipe-card">
+            <img src="image.png" alt="Spaghetti Carbonara">
+            <h3>Spaghetti Carbonara</h3>
+            <p>A delicious classic Italian pasta dish with creamy sauce and crispy pancetta.</p>
+        </div>
+
+        <div class="recipe-card">
+            <img src="chicken.jpg" alt="Chicken Curry">
+            <h3>Chicken Curry</h3>
+            <p>Spicy and flavorful chicken curry cooked in rich tomato gravy, with a yummy taste</p>
+        </div>
+
+        <div class="recipe-card">
+            <img src="veg.jpg" alt="Vegetable Stir Fry">
+            <h3>Vegetable Stir Fry</h3>
+            <p>Healthy and quick stir fry with mixed veggies, perfect for a busy weeknight!</p>
+        </div>
+    </section>
+
+    <!-- Recipe Details Section -->
+    <section id="recipe-details" class="recipe-details">
+        <h2>Recipe Details</h2>
+        <ul>
+            <li>Ingredients: Pasta, Pancetta, Eggs, Parmesan</li>
+            <li>Preparation Time: 30 mins</li>
+            <li>Instructions: Boil pasta, prepare sauce, mix and serve.</li>
+        </ul>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Welcome to our online recipe book! Whether you're a beginner or an expert, we bring you exciting new recipes, along with useful cooking tips and techniques. Our goal is to make cooking accessible and fun for everyone.</p>
+
+        <div class="about-content">
+            <img src="copy.jpg" alt="Cooking Course" class="about-img">
+            <div class="about-text">
+                <h3>Food Courses & Workshops</h3>
+                <p>Our expert chefs offer detailed courses on various cuisines, from Italian pasta making to Indian spice cooking. Join us and become an expert in your kitchen!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Recipe Book. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
